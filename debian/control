@@ -1,0 +1,15 @@
+Source: hello
+Section: unknown
+Priority: extra
+Maintainer: Matt Lemmon <mattlemmon@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/hello.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/hello.git;a=summary
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This is a test of the Ubuntu packaging system. This is only a test.
+ <insert long description, indented with spaces>

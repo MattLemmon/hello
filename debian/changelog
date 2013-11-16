@@ -1,0 +1,6 @@
+hello (2.9-0ubuntu1) saucy; urgency=low
+
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Matt Lemmon <mattlemmon@gmail.com>  Fri, 15 Nov 2013 10:49:15 -0600
